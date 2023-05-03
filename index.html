@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Registro</title>
+
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Galería</a></li>
+          <li><a href="#">Contacto</a></li>
+          
+          
+        </ul>
+      </nav>
+     
+
+    <header>
+        <img src="imagenes\logopeanutspa.jpg" alt="Logo del salón para mascotas">
+        <h1>Salón para Mascotas</h1>
+    </header>
+
+    <div>
+        
+
+        <div class="formulario">
+            
+            <h2>Registro de cliente para ingreso de una nueva mascota</h2>
+
+            <input type="text" placeholder="Nombre del cliente" id="txtCliente">
+            <input type="text" placeholder="Número de celular" id="txtCelular">
+            <input type="text" placeholder="Ingresa el nombre de la mascota" id="txtNombre">
+            <input type="text" placeholder="Ingresa la raza de la mascota" id="txtRaza">
+
+            <select id="txtGenero">
+                <option value=""disable selected> Genero de la mascota </option>
+                <option value="Macho">Macho</option>
+                <option value="Hembra">Hembra</option>
+            </select>
+            
+            <select id="vacRabia">
+                <option value=""disable selected>¿Esta vacunado con la vacuna para la rabia? </option>
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+            </select>
+
+
+
+            <select id="selServicio">
+                <option value=""disable selected>--Catalogo de servicio-- </option>
+                <option value="Vacunas">Vacunas</option>
+                <option value="Grooming">Servicios estéticos</option>
+            </select>
+          
+
+            
+
+            <button onclick="Registro();">Registrar</button>
+
+    </div>
+
+        <h2>Galería de mascotas</h2>
+
+
+        <div id="mascotas">
+            <!--En este apartado se registra para posterior instertar mascotas-->
+            
+
+
+
+        </div>
+
+
+</div>
+    <Script src="register.js"></script>
+    <Script src="display.js"></script>
+</body>
+
+
+</html>

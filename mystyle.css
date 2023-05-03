@@ -1,0 +1,187 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(243, 239, 239);
+   
+}
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3be9a9;
+    color: #6291e3;
+    border-bottom: 2px solid black;
+    background-image: url('https://mcdn.wallpapersafari.com/medium/32/78/dTuctf.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #581364; /* Cambia el color de fondo del header */
+    color: white; /* Cambia el color del texto del header */
+    font-family: Arial, sans-serif; /* Cambia el tipo de letra del header */
+    font-size: 24px; /* Cambia el tamaño de letra del header */
+    padding: 20px; /* Agrega un espacio de relleno alrededor del contenido del header */
+  }
+   header h1{
+    text-align: center;
+    margin: 0;
+    padding-left: 20px;
+   }
+  
+  header img {
+    height: 130px;
+    display: block;
+    margin-right: 20px;
+  }
+
+  nav{
+    background-color: white;
+    padding-bottom: 30px ;
+    font-size: 0.55cm;
+    height: 35px;
+    align-items: right;
+}
+ .menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: right;
+    padding: 10px;
+ }
+
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.formulario{
+    background-color: #dedede;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9;
+    background-image: url('imagenes/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+.formulario input,.formulario select {
+    display: block;
+    margin: 20px;
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+    
+    
+}
+.formulario button{
+font-size: large;
+background-color: white;
+
+}
+
+
+.error{
+    border:solid red;
+}
+.card{
+    border: 2px solid rgb(96, 74, 143);
+    padding: 10px;
+    border-radius: 10px;
+    background-image: url('https://mcdn.wallpapersafari.com/medium/97/58/SOLvob.jpg');
+    
+}
+#mascotas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    font-size: larger;
+    
+}
+@media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    nav ul {
+        margin-top: 20px;
+      }
+    
+      nav li {
+        margin-left: 0;
+      }
+    
+      .formulario {
+        padding: 20px;
+      }
+}
+nav {
+    background-color: #023f6e;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  li.search input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  li.search button {
+    background-color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  li.contact img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  footer{
+    border-top: 0.5px solid;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 30px;
+  }
+.logof{
+        border-right: 2px;
+        padding: 10px;
+        height: 30px;
+       
+
+}
